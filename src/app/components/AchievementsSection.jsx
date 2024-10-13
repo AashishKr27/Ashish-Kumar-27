@@ -29,8 +29,8 @@ const achievementsList = [
     url: "https://leetcode.com/AshishKr27"
   },
   {
-    metric: "Years",
-    value: "3",
+    metric: "Contest Rating",
+    value: "1476",
     url: "https://leetcode.com/AshishKr27"
   },
 ];
