@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
-import { cibInstagram, cibLeetcode } from "@coreui/icons";
+import { cibInstagram, cibLeetcode, cibGithub, cibLinkedin } from "@coreui/icons";
 import CIcon from "@coreui/icons-react";
 import Link from "next/link";
 import gfg from "../../../public/gfg.svg";
@@ -28,13 +28,16 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials border rounded-xl w-[100%] flex flex-row gap-4 justify-center items-center">
+        <div className="socials border sm:px-4 rounded-xl w-[100%] flex flex-row md:gap-6 sm:gap-10 gap-4 justify-center items-center">
           <Link
             className="transition-all duration-500 hover:scale-125"
             target="_blank"
             href="https://github.com/AashishKr27"
           >
-            <Image src={GithubIcon} alt="Github Icon" />
+            <CIcon
+              className="invert lg:w-[2.7em] lg:h-[2.7em] w-[1.7em] h-[1.7em] mt-1"
+              icon={cibGithub}
+            />
           </Link>
           <Link
             className="transition-all duration-500 hover:scale-125"
@@ -42,7 +45,7 @@ const EmailSection = () => {
             href="https://leetcode.com/AshishKr27"
           >
             <CIcon
-              className="invert w-[2.5em] h-[2.5em] mt-1"
+              className="invert lg:w-[2.7em] lg:h-[2.7em] w-[1.7em] h-[1.7em] mt-1"
               icon={cibLeetcode}
             />
           </Link>
@@ -51,7 +54,10 @@ const EmailSection = () => {
             target="_blank"
             href="https://www.linkedin.com/in/ashish-kumar-3a692b2b4/"
           >
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <CIcon
+              className="invert lg:w-[2.7em] lg:h-[2.7em] w-[1.7em] h-[1.7em] mt-1"
+              icon={cibLinkedin}
+            />
           </Link>
           <Link
             className="transition-all duration-500 hover:scale-125"
@@ -60,7 +66,7 @@ const EmailSection = () => {
           >
             <Image
               src={codechef}
-              className="invert w-[2.7em] h-[2.7em]"
+              className="invert w-[3em] h-[2.7em]"
               alt="Linkedin Icon"
             />
           </Link>
@@ -70,7 +76,7 @@ const EmailSection = () => {
             href="https://www.instagram.com/kumar_ashish_sa.27//"
           >
             <CIcon
-              className="invert w-[2.5em] h-[2.5em] mt-1"
+              className="invert lg:w-[2.7em] lg:h-[2.7em] w-[1.7em] h-[1.7em] mt-1"
               icon={cibInstagram}
             />
           </Link>
@@ -80,7 +86,7 @@ const EmailSection = () => {
             href="https://www.geeksforgeeks.org/user/fiitjeeashishkumar/"
           >
             <Image
-              className="invert w-[3em] h-[5em]"
+              className="invert w-[2em] h-[5em]"
               src={gfg}
               alt="GFG Icon"
             />
