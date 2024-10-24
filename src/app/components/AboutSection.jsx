@@ -38,11 +38,54 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>C++ from SimpliLearn</li>
-        <li>JavaScript from SimpliLearn</li>
-        <li>HTML from SimpliLearn</li>
-        <li>CSS from SimpliLearn</li>
-        <li>Java from Wipro</li>
+        <li>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1D11z5kl9FiRgFUL9nD8aPojeymdfQ46f/view?usp=drive_link"
+          >
+            C++ from SimpliLearn
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1DLuDqVPfgn_wfFyeGFxzxsd1f72vwN0k/view?usp=drive_link"
+          >
+            JavaScript from SimpliLearn
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1DEbSz-aasU8ihKv6f7yPyDtdJUp2UHZa/view?usp=drive_link"
+          >
+            HTML from SimpliLearn
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1DBFnC-YjzhAM-Nf7Ew3LJXITYnxLPgMm/view?usp=drive_link"
+          >
+            CSS from SimpliLearn
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1DGYk4a1ZJQuJFS9UuoPLtbLToJjiMgAs/view?usp=drive_link"
+          >
+            Java from Wipro
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1J0W7wcsDwUk1YXTNvn4WE2uJYnhKYLLk/view?usp=drive_link"
+          >
+            Participation Certificate in CodeKaze&apos;24 by Coding Ninjas
+          </a>
+        </li>
       </ul>
     ),
   },

@@ -18,6 +18,12 @@ const achievementsList = [
     url: "https://github.com/AashishKr27"
   },
   {
+    metric: "Contributions",
+    value: "100",
+    postfix: "+",
+    url: "https://github.com/AashishKr27"
+  },
+  {
     metric: "Problem Solved",
     value: "370",
     postfix: "+",
