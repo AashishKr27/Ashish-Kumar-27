@@ -83,7 +83,7 @@ const TAB_DATA = [
             target="_blank"
             href="https://drive.google.com/file/d/1J0W7wcsDwUk1YXTNvn4WE2uJYnhKYLLk/view?usp=drive_link"
           >
-            Participation Certificate in CodeKaze&apos;24 by Coding Ninjas
+            Certificate in CodeKaze&apos;24{" "}{"("}Coding Ninjas{")"}
           </a>
         </li>
       </ul>
