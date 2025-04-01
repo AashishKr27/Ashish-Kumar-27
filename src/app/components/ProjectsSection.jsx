@@ -6,6 +6,16 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 0,
+    title: "Chess.Com",
+    description:
+      "Real-Time Multiplayer Chess Game Node Js, Express Js, Chess.Js, Socket.io, EJS, Tailwind CSS",
+    image: "/images/projects/chess.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/AashishKr27/Chess.com",
+    previewUrl: "https://github.com/AashishKr27/Chess.com",
+  },
+  {
     id: 1,
     title: "LiveDocs",
     description:
