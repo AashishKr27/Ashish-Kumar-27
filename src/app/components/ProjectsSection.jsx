@@ -7,6 +7,16 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 0,
+    title: "MockMate",
+    description:
+      "an AI-driven mock interview platform using TypeScript, Next.js, Google AI Studio and Firebase",
+    image: "/images/projects/mockMate.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/AashishKr27/MockMate",
+    previewUrl: "https://mock-mate-five.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Chess.Com",
     description:
       "Real-Time Multiplayer Chess Game Node Js, Express Js, Chess.Js, Socket.io, EJS, Tailwind CSS",
@@ -16,7 +26,7 @@ const projectsData = [
     previewUrl: "https://github.com/AashishKr27/Chess.com",
   },
   {
-    id: 1,
+    id: 2,
     title: "LiveDocs",
     description:
       "A clone application of Google Docs using TypeScript, Next Js, React Js, Tailwind CSS",
@@ -26,7 +36,7 @@ const projectsData = [
     previewUrl: "https://live-docs-psi-nine.vercel.app/sign-in",
   },
   {
-    id: 2,
+    id: 3,
     title: "CarHub",
     description:
       "An application to book or rent a car using TypeScript, Next Js, React Js, Tailwind CSS",
@@ -36,7 +46,7 @@ const projectsData = [
     previewUrl: "https://drive-it-five.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "SnapGram",
     description:
       "Fully functional social media application using React Js, Tailwind CSS",
@@ -46,7 +56,7 @@ const projectsData = [
     previewUrl: "https://github.com/AashishKr27/SnapGram",
   },
   {
-    id: 4,
+    id: 5,
     title: "Apple Webpage",
     description:
       "Designed an animated and attractive webpage for presenting the Apple iPhone 15 Pro",
@@ -56,7 +66,7 @@ const projectsData = [
     previewUrl: "https://apple-website-orcin.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Amazon Clone",
     description:
       "Created a clone website of frontend of Amazon using JavaScript, React Js, Tailwind CSS",
@@ -66,7 +76,7 @@ const projectsData = [
     previewUrl: "https://amazon-clone-beta-topaz.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Spotify Clone",
     description:
       "Designed a clone website of Spotify with preloaded songs using React Js, Vite Js, Tailwind CSS",
@@ -76,7 +86,7 @@ const projectsData = [
     previewUrl: "https://spotify-clone-self-psi.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Sonic Hub",
     description:
       "Designed an e-commerce website to sell headphones using JavaScript, React Js, Tailwind CSS",
@@ -86,7 +96,7 @@ const projectsData = [
     previewUrl: "https://spotify-clone-self-psi.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Brainwave",
     description:
       "Modern UI/UX website, developed using React Js, Vite Js and Tailwind CSS",
@@ -96,7 +106,7 @@ const projectsData = [
     previewUrl: "https://brain-wave-beta.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "DevLanding",
     description:
       "reated a simple and attractive landing page using JavaScript, React Js, Vite Js, Tailwind CSS",
@@ -106,7 +116,7 @@ const projectsData = [
     previewUrl: "https://dev-landing-iota.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Geritch",
     description:
       "Created a simple and attractive Restaurant Webpage using JavaScript, React Js, CSS",
@@ -116,7 +126,7 @@ const projectsData = [
     previewUrl: "https://restaurant-webpage-bice.vercel.app/",
   },
   {
-    id: 11,
+    id: 12,
     title: "Weather App",
     description:
       "Created a real-time weather application using JavaScript, React Js, Tailwind CSS",
@@ -126,7 +136,7 @@ const projectsData = [
     previewUrl: "https://react-weather-app-iota-orpin.vercel.app/",
   },
   {
-    id: 12,
+    id: 13,
     title: "Speech To Text",
     description:
       "An application for converting speech into text using JavaScript, React Js, CSS",
@@ -136,7 +146,7 @@ const projectsData = [
     previewUrl: "https://speech-to-text-convertor-fawn.vercel.app/",
   },
   {
-    id: 13,
+    id: 14,
     title: "Fake News Detection",
     description:
       "Implemented a Machine Learning Model for prediciting Fake News using Python",
@@ -146,7 +156,7 @@ const projectsData = [
     previewUrl: "https://github.com/AashishKr27/Fake-News-Detection-Using-ML",
   },
   {
-    id: 14,
+    id: 15,
     title: "Diabetes Prediction",
     description:
       "Implemented a Machine Learning Model for prediciting Diabetes using Python",
@@ -156,7 +166,7 @@ const projectsData = [
     previewUrl: "https://github.com/AashishKr27/Diabetes-Prediction-using-ML",
   },
   {
-    id: 15,
+    id: 16,
     title: "House Price Prediction",
     description:
       "Implemented a Machine Learning Model for prediciting House Price using Python",
@@ -167,7 +177,7 @@ const projectsData = [
       "https://github.com/AashishKr27/House-Price-Prediction-using-ML",
   },
   {
-    id: 16,
+    id: 17,
     title: "Loan Status Prediction",
     description:
       "Implemented a Machine Learning Model for prediciting Loan Status using Python",
@@ -178,7 +188,7 @@ const projectsData = [
       "https://github.com/AashishKr27/Loan-Status-Prediction-Using-ML",
   },
   {
-    id: 17,
+    id: 18,
     title: "Wine Quality Prediction",
     description:
       "Implemented a Machine Learning Model for prediciting Wine Quality using Python",
@@ -189,7 +199,7 @@ const projectsData = [
       "https://github.com/AashishKr27/Wine-Quality-Prediction-Using-ML",
   },
   {
-    id: 18,
+    id: 19,
     title: "Sonar Rock Vs Mine",
     description:
       "Implemented a Machine Learning Model for prediciting Sonar Rock & Mine using Python",
@@ -199,7 +209,7 @@ const projectsData = [
     previewUrl: "https://github.com/AashishKr27/Sonar-Rock-vs-Mine-Prediction",
   },
   {
-    id: 19,
+    id: 20,
     title: "Customer Segmentation",
     description:
       "Implemented a Machine Learning Model for Customer Segmentation using Python",
