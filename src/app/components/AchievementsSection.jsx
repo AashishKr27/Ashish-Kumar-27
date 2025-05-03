@@ -25,13 +25,13 @@ const achievementsList = [
   },
   {
     metric: "Problem Solved",
-    value: "370",
+    value: "380",
     postfix: "+",
     url: "https://leetcode.com/AshishKr27"
   },
   {
     metric: "Badges",
-    value: "5",
+    value: "4",
     url: "https://leetcode.com/AshishKr27"
   },
   {
