@@ -92,6 +92,8 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
+  const date = new Date();
+  const x = date.getFullYear() - 2022;
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
@@ -129,7 +131,7 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-base lg:text-lg">
-            Hello, I&apos;m Ashish! With 2 years in DSA and Frontend
+            Hello, I&apos;m Ashish! With { x } years of experience in DSA and Frontend
             Development, I excel in C++, JavaScript, React.js, and ML in Python.
             Passionate about problem-solving, I&apos;m committed to continuous
             learning and delivering impactful results.
