@@ -74,7 +74,7 @@ http://localhost:3000
 
 ## Live Demo
 
-(Checkout Portfolio)[https://ashish-kumar-27.vercel.app/]
+[Checkout Portfolio](https://ashish-kumar-27.vercel.app/)
 
 This project is licensed under the MIT License.
 
