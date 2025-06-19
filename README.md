@@ -1,30 +1,83 @@
 # Portfolio Website
 
-This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
+A modern and responsive portfolio website built with **Next.js**, **Tailwind CSS**, and **Framer Motion**.<br/>This site showcases your skills, projects, and personal information in a sleek and developer-friendly layout.<br/>Ideal for personal branding, job applications, and freelance profiles.
 
-## Installation
+## 🚀 Features
 
-1. Clone the repository: `git clone https://github.com/judygab/nextjs-portfolio.git`
-2. Navigate to the project directory: `cd portfolio-website`
-3. Install the dependencies: `npm install`
+- Built with **Next.js 13** and **React 18**
+- Styled using **Tailwind CSS**
+- Animated transitions using **Framer Motion**
+- Type animation for dynamic text effects
+- Responsive and mobile-friendly design
+- Organized project and skills sections
+- Contact form with Resend integration
 
-## Usage
+## 🛠️ Tech Stack
 
-1. Start the development server: `npm run dev`
-2. Open your browser and visit `http://localhost:3000` to view the website.
+- **Framework**: Next.js
+- **Styling**: Tailwind CSS
+- **Animation**: Framer Motion, React Type Animation
+- **Icons**: Heroicons, CoreUI Icons
+- **Contact Email API**: Resend
 
-## Dependencies
+## 📦 Installation
 
-The following dependencies are required for this project:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio-website.git
+   ```
 
-- Next.js: A React framework for server-side rendering and static site generation.
-- Tailwind CSS: A highly customizable CSS framework.
-- React: A JavaScript library for building user interfaces.
-- React Icons: A collection of popular icons for React projects.
-- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
-- Resend: Resend is the email API for developers.
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio-website
+   ```
 
-## License
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
+## 🧪 Running the App
 
+Start the development server:
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+```
+http://localhost:3000
+```
+
+## 📁 Project Structure
+
+```
+/public           # Static assets like images and favicons
+/components       # Reusable UI components (Navbar, Footer, etc.)
+/pages            # Next.js pages (Home, About, Contact)
+/styles           # Tailwind CSS configurations
+```
+
+## ✨ Customization Tips
+
+- **Update your content** in `/pages/index.tsx` and other components.
+- Replace placeholder images in `/public`.
+- Configure your Tailwind setup in `tailwind.config.js`.
+- Customize animations in the Framer Motion configs.
+
+## ⚙️ Scripts
+
+- `npm run dev` — Start development server
+- `npm run build` — Create production build
+- `npm run start` — Start production server
+- `npm run lint` — Run ESLint
+
+## Live Demo
+
+(Checkout Portfolio)[https://ashish-kumar-27.vercel.app/]
+
+This project is licensed under the MIT License.
+
+---
+
+> Designed and developed by Ashish Kumar
