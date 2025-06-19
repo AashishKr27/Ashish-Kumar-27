@@ -52,10 +52,37 @@ http://localhost:3000
 ## 📁 Project Structure
 
 ```
-/public           # Static assets like images and favicons
-/components       # Reusable UI components (Navbar, Footer, etc.)
-/pages            # Next.js pages (Home, About, Contact)
-/styles           # Tailwind CSS configurations
+new-portfolio/
+│
+├── public/                     # Static assets (images, icons, etc.)
+│   └── assets/                 # Custom assets (profile picture, project screenshots)
+│
+├── components/                 # Reusable UI components
+│   ├── Navbar.jsx              # Navigation bar
+│   ├── Footer.jsx              # Footer section
+│   ├── HeroSection.jsx         # Intro section with animated text
+│   ├── AboutSection.jsx        # About Me content
+│   ├── Skills.jsx              # Skills grid
+│   ├── Projects.jsx            # Project showcase cards
+│   └── ContactForm.jsx         # Email form powered by Resend
+│
+├── pages/                      # Next.js routing pages
+│   ├── index.tsx               # Main homepage
+│   ├── _app.tsx                # App entry (global CSS & layout)
+│   └── api/                    # API routes
+│       └── send.ts             # API for handling contact form submission
+│
+├── styles/                     # Custom styling and overrides
+│   └── globals.css             # Global styles and Tailwind utilities
+│
+├── .eslintrc.json              # ESLint configuration
+├── .gitignore                  # Files/folders to ignore in Git
+├── jsconfig.json               # JS/TS path aliases and IntelliSense
+├── next.config.js              # Next.js configuration
+├── package.json                # Project metadata and dependencies
+├── postcss.config.js           # PostCSS config for Tailwind
+├── tailwind.config.js          # Tailwind CSS configuration
+└── README.md                   # You are here 📘
 ```
 
 ## ✨ Customization Tips
