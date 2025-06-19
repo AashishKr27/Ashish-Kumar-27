@@ -6,10 +6,20 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: -1,
+    title: "StoreIt",
+    description:
+      "A full-stack file storage and management web application built using Next.js 15, Tailwind CSS and TypeScript.",
+    image: "/images/projects/storeit.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/AashishKr27/StoreIt",
+    previewUrl: "https://store-it-tawny.vercel.app/sign-up",
+  },
+  {
     id: 0,
     title: "MockMate",
     description:
-      "an AI-driven mock interview platform using TypeScript, Next.js, Google AI Studio and Firebase",
+      "An AI-driven mock interview platform using TypeScript, Next.js, Google AI Studio and Firebase",
     image: "/images/projects/mockMate.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/AashishKr27/MockMate",
