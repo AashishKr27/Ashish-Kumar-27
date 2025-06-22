@@ -25,7 +25,7 @@ const achievementsList = [
   },
   {
     metric: "Problem Solved",
-    value: "380",
+    value: "384",
     postfix: "+",
     url: "https://leetcode.com/AshishKr27"
   },
