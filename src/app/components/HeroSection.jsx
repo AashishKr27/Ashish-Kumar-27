@@ -4,7 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Resume from "../../../public/resume.pdf";
+import Resume from "../../../public/resume.pdf"
 
 const HeroSection = () => {
   return (
